@@ -19,9 +19,9 @@ int binarysearch(int * arr, int item, int arrsize){
 }
 
 int main(){
-    int arr[] = {1, 3, 5, 7, 9};
+    int arr[] = {1, 2, 3, 5, 7, 9};
     int arrsize = sizeof(arr)/sizeof(arr[0]);
-    int item = 3;
+    int item = 7;
     int result = binarysearch(arr, item, arrsize);
     if(result == -1){
         printf("Item not found\n");
