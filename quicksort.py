@@ -10,5 +10,5 @@ def quicksort(arr:list):
         print(f'{left} <=> [{pivot}] <=> {right}')
         return quicksort(left) + [pivot] + quicksort(right)
     
-arr = [3,1,2,4,5,8,7,6,9,10]
+arr = [3,1,2,4,5,8,7,6,9,10,1,43,32,21,22,18,17]
 print(quicksort(arr))
